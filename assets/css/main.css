@@ -3,13 +3,16 @@ main {
     margin: 0 auto;
 }
 
+h2 {
+    font-size: 32px;
+}
+
 .main-section-header {
     text-align: center;
     margin-bottom: 2em;
 }
 
 .main-content-card {
-    outline: 1px solid red;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -32,4 +35,148 @@ main {
 
 .main-content-card:nth-child(even) {
     flex-direction: row-reverse;
+}
+
+.main-img {
+    width: 100vw;
+    display: block;
+    margin: 0 auto;
+}
+
+.plan-form {
+    display: block;
+    width: 70vw;
+    margin: 0 auto;
+    position: relative;
+    top: -200px;
+    margin-bottom: -150px;
+    box-shadow: 5px 5px 15px rgb(51, 58, 55);
+}
+
+.nav-flex {
+    width: 70vw;
+    margin: 0 auto;
+    display: flex;
+    background: transparent;
+}
+
+.list-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+
+.list-flex li {
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+.main-section-disclaimer {
+    margin-bottom: 50px;
+}
+
+.jargon {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.main-jargon {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.jargon-1-content {
+    width: 50%;
+}
+
+.main-jargon-pic {
+    width: 100%;
+}
+
+.sub-jargon {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.sub-jargon-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 30%;
+    justify-content: center;
+}
+
+.sub-jargon-content h4 {
+    text-align: justify;
+}
+
+.sub-jargon-pic {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.insurance-pic {
+    width: 100vw;
+}
+
+.footer {
+    width: 100vw;
+    color: white;
+    background: rgb(36, 35, 35);
+    padding-bottom: 5px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+
+.soc-contacts {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin: 0 auto;
+    border-bottom: 1px solid white;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.links {
+    width: 80vw;
+    margin: 0 auto;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links li {
+    list-style-type: none;
+    width: 125px;
+    padding: 5px 0px;
+    position: relative;
+    left: -40px;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer-disclaimer {
+    width: 80vw;
+    margin: 0 auto;
 }
